@@ -19,10 +19,15 @@
     background-color: $dark;
 }
 
-.btn-orange {
+.btn-brown {
     width: 131px;
     height: 53px;
     padding: 17px 40px;
 
     border-radius: 32px;
+
+    font: $text-small/19.2px Roboto, sans-serif;
+    color: $white;
+
+    background-color: $brown;
 }

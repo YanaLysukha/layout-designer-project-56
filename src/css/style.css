@@ -9,8 +9,11 @@
   color: #CACACA;
   background-color: #08020D; }
 
-.btn-orange {
+.btn-brown {
   width: 131px;
   height: 53px;
   padding: 17px 40px;
-  border-radius: 32px; }
+  border-radius: 32px;
+  font: 0.6666666667 Roboto, sans-serif;
+  color: #FFFFFF;
+  background-color: #95390C; }
