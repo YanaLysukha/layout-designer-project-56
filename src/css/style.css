@@ -1,1 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.btn {
+  width: 135px;
+  height: 53px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 1px solid #CACACA;
+  font: 12px/19px Roboto, sans-serif;
+  color: #CACACA;
+  background-color: #08020D; }
