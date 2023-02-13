@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+h1 {
+  font: bold 60px/90px Roboto, sans-serif;
+  text-transform: uppercase; }
+  @media (max-width: 454px) {
+    h1 {
+      font-size: 30px;
+      line-height: 45px; } }
+
+h2 {
+  font: bold 38px/57px Roboto, sans-serif;
+  text-transform: uppercase; }
+  @media (max-width: 454px) {
+    h2 {
+      font-size: 18px;
+      line-height: 27px; } }
+
 .btn {
   width: 135px;
   height: 53px;
