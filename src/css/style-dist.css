@@ -73,9 +73,11 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-
-.logo {
+.header .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,18 +85,17 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
-.logo img {
+.header .logo img {
   width: 24px;
   height: 24px;
   margin-right: 16px;
 }
-.logo .logo-name {
+.header .logo .logo-name {
   font: 11px/16.5px;
   color: #FFFFFF;
   text-transform: uppercase;
 }
-
-.header-navigation {
+.header .header-navigation {
   font: 11px/16.5px;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -102,9 +103,9 @@ h2 {
   display: -ms-flexbox;
   display: flex;
 }
-.header-navigation li {
+.header .header-navigation li {
   margin-right: 24px;
 }
-.header-navigation li a {
+.header .header-navigation li a {
   color: #FFFFFF;
 }
