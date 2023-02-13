@@ -30,7 +30,7 @@
 
     margin-right: 90px;
 
-    @media (max-width: $phone-width) {
+    @media (max-width: $md-width) {
         margin-bottom: 17px;
 
         font-weight: bold;
@@ -59,7 +59,7 @@
     & li a {
         color: $white;
     }
-    @media (max-width: $phone-width) {
+    @media (max-width: $md-width) {
         font-weight: bold;
         flex-direction: column;
 
@@ -72,6 +72,7 @@
         width: 248px;
         height: 25px;
         padding: 5px 10px;
+        box-sizing: border-box;
 
         background-color: $dark-gray;
 
@@ -79,7 +80,7 @@
         border: none;
         outline: none;
 
-        @media (max-width: $phone-width) {
+        @media (max-width: $md-width) {
             width: 100%;
             flex-grow: 3;
         }
@@ -92,7 +93,7 @@
     }
     
 
-    @media (max-width: $phone-width) {
+    @media (max-width: $md-width) {
         width: 100%;
     }
 }
