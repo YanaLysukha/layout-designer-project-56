@@ -13,6 +13,11 @@
 
     display: flex;
     align-items: center;
+
+    @media (max-width: $md-width) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
     
     nav {
         flex-grow: 1;
@@ -24,6 +29,12 @@
     align-items: center;
 
     margin-right: 90px;
+
+    @media (max-width: $phone-width) {
+        margin-bottom: 17px;
+
+        font-weight: bold;
+    }
 
     img {
         width: 24px;
@@ -48,23 +59,41 @@
     & li a {
         color: $white;
     }
+    @media (max-width: $phone-width) {
+        font-weight: bold;
+        flex-direction: column;
+
+        margin-bottom: 18px;
+    }
 }
 
 .search {
-    width: 248px;
-    height: 25px;
-    padding: 5px 10px;
+    input {
+        width: 248px;
+        height: 25px;
+        padding: 5px 10px;
 
-    background-color: $dark-gray;
+        background-color: $dark-gray;
 
-    border-radius: 50px;
-    border: none;
-    outline: none;
+        border-radius: 50px;
+        border: none;
+        outline: none;
 
-    &::placeholder {
-        font: 13.3px Arial, sans-serif;
-        color: #757575;
-        @include uppercase;
+        @media (max-width: $phone-width) {
+            width: 100%;
+            flex-grow: 3;
+        }
+
+         &::placeholder {
+            font: 13.3px Arial, sans-serif;
+            color: #757575;
+            @include uppercase;
+        }
+    }
+    
+
+    @media (max-width: $phone-width) {
+        width: 100%;
     }
 }
 

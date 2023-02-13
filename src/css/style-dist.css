@@ -81,6 +81,17 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 905px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
 .header nav {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -95,6 +106,12 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   margin-right: 90px;
+}
+@media (max-width: 454px) {
+  .logo {
+    margin-bottom: 17px;
+    font-weight: bold;
+  }
 }
 .logo img {
   width: 24px;
@@ -121,8 +138,18 @@ h2 {
 .header-navigation li a {
   color: #FFFFFF;
 }
+@media (max-width: 454px) {
+  .header-navigation {
+    font-weight: bold;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 18px;
+  }
+}
 
-.search {
+.search input {
   width: 248px;
   height: 25px;
   padding: 5px 10px;
@@ -131,28 +158,41 @@ h2 {
   border: none;
   outline: none;
 }
-.search::-webkit-input-placeholder {
+@media (max-width: 454px) {
+  .search input {
+    width: 100%;
+    -webkit-box-flex: 3;
+        -ms-flex-positive: 3;
+            flex-grow: 3;
+  }
+}
+.search input::-webkit-input-placeholder {
   font: 13.3px Arial, sans-serif;
   color: #757575;
   text-transform: uppercase;
 }
-.search::-moz-placeholder {
+.search input::-moz-placeholder {
   font: 13.3px Arial, sans-serif;
   color: #757575;
   text-transform: uppercase;
 }
-.search:-ms-input-placeholder {
+.search input:-ms-input-placeholder {
   font: 13.3px Arial, sans-serif;
   color: #757575;
   text-transform: uppercase;
 }
-.search::-ms-input-placeholder {
+.search input::-ms-input-placeholder {
   font: 13.3px Arial, sans-serif;
   color: #757575;
   text-transform: uppercase;
 }
-.search::placeholder {
+.search input::placeholder {
   font: 13.3px Arial, sans-serif;
   color: #757575;
   text-transform: uppercase;
+}
+@media (max-width: 454px) {
+  .search {
+    width: 100%;
+  }
 }
