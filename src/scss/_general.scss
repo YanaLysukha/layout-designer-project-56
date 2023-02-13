@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+@mixin basic {
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    color: #CACACA;
+    background-color: #08020D;
+}
+
 .btn {
     width: 135px;
     height: 53px;
