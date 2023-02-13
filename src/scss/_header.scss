@@ -12,35 +12,35 @@
     margin: 0 auto;
 
     display: flex;
+    align-items: center;   
+}
+
+.logo {
+    display: flex;
     align-items: center;
 
-    .logo {
-        display: flex;
-        align-items: center;
-    
-        img {
-            width: 24px;
-            height: 24px;
-            margin-right: 16px;
-        }
-        .logo-name {
-            @include header-text;
-            @include uppercase;
-        }
+    img {
+        width: 24px;
+        height: 24px;
+        margin-right: 16px;
     }
-    
-    .header-navigation {
+    .logo-name {
         @include header-text;
         @include uppercase;
-        display: flex;
-    
-        & li {
-            margin-right: 24px;
-        }
-    
-        & li a {
-            color: $white;
-        }
+    }
+}
+
+.header-navigation {
+    @include header-text;
+    @include uppercase;
+    display: flex;
+
+    & li {
+        margin-right: 24px;
+    }
+
+    & li a {
+        color: $white;
     }
 }
 
