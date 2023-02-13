@@ -1,19 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 h1 {
   font: bold 60px/90px Roboto, sans-serif;
-  text-transform: uppercase; }
-  @media (max-width: 454px) {
-    h1 {
-      font-size: 30px;
-      line-height: 45px; } }
+  text-transform: uppercase;
+}
+@media (max-width: 454px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
 
 h2 {
   font: bold 38px/57px Roboto, sans-serif;
-  text-transform: uppercase; }
-  @media (max-width: 454px) {
-    h2 {
-      font-size: 18px;
-      line-height: 27px; } }
+  text-transform: uppercase;
+}
+@media (max-width: 454px) {
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
 
 .btn {
   width: 135px;
@@ -23,13 +29,15 @@ h2 {
   border: 1px solid #CACACA;
   font: 12px/19px Roboto, sans-serif;
   color: #CACACA;
-  background-color: #08020D; }
+  background-color: #08020D;
+}
 
 .btn-brown {
   width: 131px;
   height: 53px;
   padding: 17px 40px;
   border-radius: 32px;
-  font: 0.6666666667 Roboto, sans-serif;
+  font: 12.8px/19.2px Roboto, sans-serif;
   color: #FFFFFF;
-  background-color: #95390C; }
+  background-color: #95390C;
+}
