@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  color: #CACACA;
+  background-color: #08020D;
+}
+
 h1 {
   font: bold 60px/90px Roboto, sans-serif;
   text-transform: uppercase;
