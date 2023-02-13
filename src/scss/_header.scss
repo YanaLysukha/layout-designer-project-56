@@ -8,14 +8,17 @@
     margin: 0 auto;
 }
 
-.logo-name {
-    @include header-text;
-    @include uppercase;
+.logo {
+    display: flex;
 
-    background-image: url('../images/icons/logo.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-     
+    img {
+        width: 24px;
+        height: 24px;
+    }
+    .logo-name {
+        @include header-text;
+        @include uppercase;
+    }
 }
 
 .header-navigation {

@@ -67,13 +67,19 @@ h2 {
   margin: 0 auto;
 }
 
-.logo-name {
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo img {
+  width: 24px;
+  height: 24px;
+}
+.logo .logo-name {
   font: 11px/16.5px;
   color: #FFFFFF;
   text-transform: uppercase;
-  background-image: url("../images/icons/logo.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .header-navigation {
