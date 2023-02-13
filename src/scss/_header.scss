@@ -1,3 +1,29 @@
-.logo {
-    font: 11px/16.5px;
+.header {
+    @include container;
+
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.logo-name {
+    @include header-text;
+    @include uppercase;
+
+    background-image: url('../images/icons/logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+     
+}
+
+.header-navigation {
+    @include header-text;
+    @include uppercase;
+    display: flex;
+
+    & li a {
+        color: $white;
+    }
 }
