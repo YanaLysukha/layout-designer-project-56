@@ -232,7 +232,7 @@ h2 {
           box-sizing: border-box;
 }
 
-.title {
+.banner-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -246,45 +246,66 @@ h2 {
   margin-bottom: 30px;
 }
 @media (max-width: 454px) {
-  .title {
+  .banner-title {
     margin-top: 75px;
   }
 }
 
-form .form-description {
+.banner-form {
+  max-width: 570px;
+  margin: 0 auto;
+}
+.banner-form .banner-form-description {
   font: 0.6666666667;
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 17px;
 }
-form .form-text,
-form .form-email {
+.banner-form .banner-form-text {
+  margin-right: 24px;
+}
+.banner-form .banner-form-text,
+.banner-form .banner-form-email {
   min-width: 270px;
   min-height: 50px;
   padding-left: 20px;
   margin-bottom: 1.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: inherit;
   border: 2px solid #CACACA;
   border-radius: 3px;
 }
-form .form-text::-webkit-input-placeholder, form .form-email::-webkit-input-placeholder {
+.banner-form .banner-form-text::-webkit-input-placeholder, .banner-form .banner-form-email::-webkit-input-placeholder {
   font: bold 14px Roboto, sans-serif;
   color: #FFFFFF;
 }
-form .form-text::-moz-placeholder, form .form-email::-moz-placeholder {
+.banner-form .banner-form-text::-moz-placeholder, .banner-form .banner-form-email::-moz-placeholder {
   font: bold 14px Roboto, sans-serif;
   color: #FFFFFF;
 }
-form .form-text:-ms-input-placeholder, form .form-email:-ms-input-placeholder {
+.banner-form .banner-form-text:-ms-input-placeholder, .banner-form .banner-form-email:-ms-input-placeholder {
   font: bold 14px Roboto, sans-serif;
   color: #FFFFFF;
 }
-form .form-text::-ms-input-placeholder, form .form-email::-ms-input-placeholder {
+.banner-form .banner-form-text::-ms-input-placeholder, .banner-form .banner-form-email::-ms-input-placeholder {
   font: bold 14px Roboto, sans-serif;
   color: #FFFFFF;
 }
-form .form-text::placeholder,
-form .form-email::placeholder {
+.banner-form .banner-form-text::placeholder,
+.banner-form .banner-form-email::placeholder {
   font: bold 14px Roboto, sans-serif;
   color: #FFFFFF;
+}
+.banner-form .banner-form-button {
+  min-width: 570px;
+  min-height: 55px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #34C176;
+  border: none;
+  border-radius: 5px;
+  font: 13.3px Arial, sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }

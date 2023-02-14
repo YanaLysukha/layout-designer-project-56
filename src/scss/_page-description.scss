@@ -26,7 +26,7 @@
     @include container;
 }
 
-.title {
+.banner-title {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,8 +38,11 @@
     }
 }
 
-form {
-    .form-description {
+.banner-form {
+    max-width: 570px;
+    margin: 0 auto;
+
+    .banner-form-description {
         font: $text-size-1;
         text-align: center;
         color: $white;
@@ -47,12 +50,17 @@ form {
         margin-bottom: 17px;
     }
 
-    .form-text,
-    .form-email {
+    .banner-form-text {
+        margin-right: 24px;
+    }
+
+    .banner-form-text,
+    .banner-form-email {
         min-width: 270px;
         min-height: 50px;
         padding-left: 20px;
         margin-bottom: 1.5rem;
+        box-sizing: border-box;
 
         background-color: inherit;
         border: 2px solid $gray;
@@ -62,6 +70,20 @@ form {
             font: bold 14px Roboto, sans-serif;
             color: $white;
         }
+    }
+
+    .banner-form-button {
+        min-width: 570px;
+        min-height: 55px;
+        box-sizing: border-box;
+
+        background-color: $green;
+        border: none;
+        border-radius: 5px;
+
+        font: 13.3px Arial, sans-serif;
+        color: $white;
+        @include uppercase;
     }
 
 }
