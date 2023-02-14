@@ -243,9 +243,48 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 30px;
 }
 @media (max-width: 454px) {
   .title {
     margin-top: 75px;
   }
+}
+
+form .form-description {
+  font: 0.6666666667;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 17px;
+}
+form .form-text,
+form .form-email {
+  min-width: 270px;
+  min-height: 50px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  background-color: inherit;
+  border: 2px solid #CACACA;
+  border-radius: 3px;
+}
+form .form-text::-webkit-input-placeholder, form .form-email::-webkit-input-placeholder {
+  font: bold 14px Roboto, sans-serif;
+  color: #FFFFFF;
+}
+form .form-text::-moz-placeholder, form .form-email::-moz-placeholder {
+  font: bold 14px Roboto, sans-serif;
+  color: #FFFFFF;
+}
+form .form-text:-ms-input-placeholder, form .form-email:-ms-input-placeholder {
+  font: bold 14px Roboto, sans-serif;
+  color: #FFFFFF;
+}
+form .form-text::-ms-input-placeholder, form .form-email::-ms-input-placeholder {
+  font: bold 14px Roboto, sans-serif;
+  color: #FFFFFF;
+}
+form .form-text::placeholder,
+form .form-email::placeholder {
+  font: bold 14px Roboto, sans-serif;
+  color: #FFFFFF;
 }

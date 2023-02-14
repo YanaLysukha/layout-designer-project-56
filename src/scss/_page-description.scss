@@ -31,7 +31,37 @@
     flex-direction: column;
     align-items: center;
 
+    margin-bottom: 30px;
+
     @media (max-width: $phone-width) {
         margin-top: 75px;
     }
+}
+
+form {
+    .form-description {
+        font: $text-size-1;
+        text-align: center;
+        color: $white;
+
+        margin-bottom: 17px;
+    }
+
+    .form-text,
+    .form-email {
+        min-width: 270px;
+        min-height: 50px;
+        padding-left: 20px;
+        margin-bottom: 1.5rem;
+
+        background-color: inherit;
+        border: 2px solid $gray;
+        border-radius: 3px;
+
+        &::placeholder {
+            font: bold 14px Roboto, sans-serif;
+            color: $white;
+        }
+    }
+
 }
