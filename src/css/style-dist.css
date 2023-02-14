@@ -222,6 +222,11 @@ h2 {
   width: 100%;
   height: 750px;
 }
+@media (max-width: 905px) {
+  .banner::before {
+    height: 850px;
+  }
+}
 
 .container {
   width: 100%;
@@ -297,6 +302,12 @@ h2 {
   font: bold 14px Roboto, sans-serif;
   color: #FFFFFF;
 }
+@media (max-width: 454px) {
+  .banner-form .banner-form-text,
+.banner-form .banner-form-email {
+    width: 100%;
+  }
+}
 .banner-form .banner-form-button {
   min-width: 570px;
   min-height: 55px;
@@ -308,4 +319,10 @@ h2 {
   font: 13.3px Arial, sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+@media (max-width: 905px) {
+  .banner-form .banner-form-button {
+    width: 100%;
+    min-width: 270px;
+  }
 }
