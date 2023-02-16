@@ -8,14 +8,14 @@
 
 .d-flex {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
     .pricing-item {
         flex: 1 1 368px;
 
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+        min-height: 615px;
+        
         border-radius: 1rem;
 
         h3 {
@@ -24,16 +24,22 @@
     }
 }
 
+.d-flex div:not(:last-child) {
+    margin-right: 50px;
+}
+
 .subscribe-1 {
     background-image: url("../images/subscribe_1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .subscribe-2 {
     background-image: url("../images/subscribe_2.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .subscribe-3 {
