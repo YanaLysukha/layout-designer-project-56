@@ -372,6 +372,7 @@ h3 {
   margin-bottom: 40px;
   font-size: 64px;
   text-align: center;
+  line-height: 1em;
 }
 .d-flex .pricing-item .pricing-btn {
   min-width: 325px;
@@ -397,18 +398,18 @@ h3 {
 
 .subscribe-1 {
   background-image: url("../images/subscribe_1.png");
-  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .subscribe-2 {
   background-image: url("../images/subscribe_2.png");
-  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .subscribe-3 {
   background-image: url("../images/subscribe_3.png");
-  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }

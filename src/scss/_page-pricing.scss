@@ -31,6 +31,7 @@
 
             font-size: $text-size-7;
             text-align: center;
+            line-height: 1em;
         }
 
         .pricing-btn {
@@ -62,20 +63,20 @@
 
 .subscribe-1 {
     background-image: url("../images/subscribe_1.png");
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     
 }
 
 .subscribe-2 {
     background-image: url("../images/subscribe_2.png");
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     
 }
 
 .subscribe-3 {
     background-image: url("../images/subscribe_3.png");
-    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
