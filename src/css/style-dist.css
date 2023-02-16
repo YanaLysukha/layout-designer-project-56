@@ -103,6 +103,12 @@ h3 {
 }
 @media (max-width: 905px) {
   .header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 905px) {
+  .header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -238,16 +244,17 @@ h3 {
   width: 100%;
   height: 100%;
 }
-@media (max-width: 905px) {
-  .banner::before {
-    height: 850px;
-  }
-}
 
 .container {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
+}
+@media (max-width: 905px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .banner-title {
@@ -343,6 +350,7 @@ h3 {
 .pricing-section {
   padding-top: 100px;
   color: #FFFFFF;
+  overflow: hidden;
 }
 
 .pricing-section-title {
@@ -353,28 +361,48 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 40px;
 }
-.d-flex .pricing-item {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 368px;
-          flex: 1 1 368px;
+@media (max-width: 454px) {
+  .d-flex {
+    margin-bottom: 0;
+  }
+}
+
+.pricing-item {
+  width: 368px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-top: 1em;
   min-height: 615px;
   border-radius: 1rem;
 }
-.d-flex .pricing-item h3 {
+@media (max-width: 905px) {
+  .pricing-item {
+    width: 48%;
+  }
+}
+@media (max-width: 454px) {
+  .pricing-item {
+    margin-bottom: 20px;
+    max-width: 370px;
+  }
+}
+.pricing-item h3 {
   margin-bottom: 200px;
 }
-.d-flex .pricing-item .pricing-item-value {
+.pricing-item .pricing-item-value {
   margin-bottom: 40px;
   font-size: 64px;
   text-align: center;
   line-height: 1em;
 }
-.d-flex .pricing-item .pricing-btn {
+.pricing-item .pricing-item-value .currency {
+  font-size: 32px;
+}
+.pricing-item .pricing-btn {
   min-width: 325px;
   padding: 21px;
   margin-bottom: 60px;
@@ -383,7 +411,7 @@ h3 {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
 }
-.d-flex .pricing-item .pricing-item-text {
+.pricing-item .pricing-item-text {
   font-size: 12.8px;
   text-align: center;
 }
