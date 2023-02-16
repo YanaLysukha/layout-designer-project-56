@@ -88,10 +88,7 @@ h3 {
 .header {
   width: 100%;
   max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  margin: 0 auto;
   position: absolute;
   top: 25px;
   left: 0;
@@ -251,10 +248,7 @@ h3 {
 .container {
   width: 100%;
   max-width: 1240px;
-  padding-left: 20px;
-  padding-right: 20px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  margin: 0 auto;
 }
 
 .banner-title {
@@ -366,6 +360,7 @@ h3 {
           flex: 1 1 368px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-top: 1em;
   min-height: 615px;
   border-radius: 1rem;
 }
