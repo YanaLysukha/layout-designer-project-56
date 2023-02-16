@@ -78,17 +78,15 @@ h3 {
 }
 
 .btn {
-    width: 135px;
-    height: 53px;
-    padding: 20px 30px;
-
     border-radius: 5px;
     border: 1px solid $gray;
 
     font: 12px/19px Roboto, sans-serif;
     color: $gray;
+    text-align: center;
+    @include uppercase;
 
-    background-color: $dark;
+    background-color: transparent;
 }
 
 .btn-brown {
