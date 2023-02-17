@@ -391,10 +391,20 @@ h3 {
 }
 .pricing-item .pricing-value {
   font-size: 64px;
+  margin: 0 auto;
   margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pricing-item .pricing-value .number-value {
+  line-height: 1em;
+  margin-right: 1rem;
 }
 .pricing-item .pricing-value .currency {
   font-size: 32px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
 }
 .pricing-item .pricing-btn {
   font-size: 16px;

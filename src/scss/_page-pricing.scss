@@ -35,11 +35,20 @@
 
     .pricing-value {
         font-size: $text-size-7;
-
+        margin: 0 auto;
         margin-bottom: 40px;
+        display: flex;
+
+        .number-value {
+            line-height: 1em;
+
+            margin-right: 1rem;
+        }
 
         .currency {
             font-size: $text-size-3;
+            
+            align-self: flex-start;
         }
     }
 
