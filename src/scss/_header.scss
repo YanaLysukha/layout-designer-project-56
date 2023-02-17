@@ -62,10 +62,14 @@
         color: $white;
     }
     @media (max-width: $md-width) {
+        margin-bottom: 18px;
+    }
+
+    @media (max-width: $phone-width) {
         font-weight: bold;
         flex-direction: column;
 
-        margin-bottom: 18px;
+        
     }
 }
 
