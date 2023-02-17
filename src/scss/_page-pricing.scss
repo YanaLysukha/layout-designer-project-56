@@ -6,14 +6,12 @@
 
 .pricing-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    column-gap: 50px;
+    gap: 50px;
     margin-bottom: 40px;
 
     @media (max-width: $md-width) {
         /*column-gap: calc(20px + (50 - 20) * ((100vw - 280px) / (1240 - 320)));*/
-
+        flex-direction: column;
         justify-content: center;
     }
 }
@@ -25,7 +23,8 @@
 .pricing-item {
     display: flex;
     flex-direction: column;
-    flex: 0 1 370px;
+    /*flex: 0 1 368px;*/
+    width: 33%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-top: 1em;
@@ -36,7 +35,7 @@
         margin-bottom: 27px;
     }
 
-    @media (max-width: $phone-width) {
+    @media (max-width: $md-width) {
         width: 100%;
     }
 
