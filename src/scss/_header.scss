@@ -14,6 +14,9 @@
     z-index: 3;
     margin: 0 auto;
 
+    display: flex;
+    align-items: center;
+
     @media (max-width: $md-width) {
         flex-direction: column;
         align-items: flex-start;
@@ -22,11 +25,6 @@
     nav {
         flex-grow: 1;
     }
-}
-
-.wrapper {
-    display: flex;
-    align-items: center;
 }
 
 .logo {
@@ -67,12 +65,11 @@
     }
     @media (max-width: $md-width) {
         margin-bottom: 18px;
-        font-weight: bold;
-        flex-direction: column;
     }
 
     @media (max-width: $phone-width) {
-        
+        font-weight: bold;
+        flex-direction: column;
 
         
     }
