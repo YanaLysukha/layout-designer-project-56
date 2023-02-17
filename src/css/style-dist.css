@@ -322,7 +322,7 @@ h3 {
   font: bold 14px Roboto, sans-serif;
   color: #FFFFFF;
 }
-@media (max-width: 454px) {
+@media (max-width: 915px) {
   .banner-form .banner-form-text,
 .banner-form .banner-form-email {
     width: 100%;

@@ -71,7 +71,7 @@
             color: $white;
         }
 
-        @media (max-width:$phone-width) {
+        @media (max-width:$md-width) {
             width: 100%;
         }
     }
