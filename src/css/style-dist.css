@@ -336,9 +336,15 @@ h3 {
   background-color: #34C176;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
   font: 13.3px Arial, sans-serif;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+.banner-form .banner-form-button:hover {
+  background-color: #398f61;
 }
 @media (max-width: 915px) {
   .banner-form .banner-form-button {

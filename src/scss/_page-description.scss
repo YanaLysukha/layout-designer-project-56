@@ -84,6 +84,12 @@
         background-color: $green;
         border: none;
         border-radius: 5px;
+        cursor: pointer;
+        transition: 0.7s;
+
+        &:hover {
+            background-color: #398f61;
+        }
 
         font: 13.3px Arial, sans-serif;
         color: $white;
