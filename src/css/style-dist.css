@@ -362,6 +362,13 @@ h3 {
           column-gap: 50px;
   margin-bottom: 40px;
 }
+@media (max-width: 905px) {
+  .pricing-container {
+    -webkit-column-gap: calc(20px + 30 * (100vw - 320px) / 920);
+       -moz-column-gap: calc(20px + 30 * (100vw - 320px) / 920);
+            column-gap: calc(20px + 30 * (100vw - 320px) / 920);
+  }
+}
 
 .page-pricing-title {
   margin-bottom: 45px;
