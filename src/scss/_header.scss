@@ -2,9 +2,11 @@
     @include reset;
 }
 
-.header {
+.container {
     @include container;
-    
+}
+
+.header {
     position: absolute;
     top: 25px;
     left: 0;

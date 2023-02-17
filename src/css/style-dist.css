@@ -84,10 +84,19 @@ h3 {
   padding: 0;
 }
 
-.header {
+.container {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
+}
+@media (max-width: 915px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.header {
   position: absolute;
   top: 25px;
   left: 0;
@@ -100,12 +109,6 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-@media (max-width: 915px) {
-  .header {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 }
 @media (max-width: 915px) {
   .header {
