@@ -28,8 +28,13 @@
 }
 
 .news-author {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 45px;
+
+    font-size: 12px;
+
     .avatar {
-        font-size: 12px;
         text-transform: uppercase;
         color: $orange;
 
