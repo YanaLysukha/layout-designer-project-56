@@ -5,3 +5,20 @@
 .page-news-title {
     margin-bottom: 45px;
 }
+
+.news-item-wrapper {
+    margin-bottom: 65px;
+
+    display: flex;
+}
+
+.news-item-img {
+    margin-right: 50px;
+}
+
+.news-body {
+    h3 {
+        text-transform: none;
+        text-align: left;
+    }
+}
