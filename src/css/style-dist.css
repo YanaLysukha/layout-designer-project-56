@@ -486,11 +486,17 @@ h3 {
   }
 }
 
+.row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
 .news-item-img {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
-  margin-right: 25px;
 }
 .news-item-img img {
   max-width: 100%;
@@ -506,12 +512,6 @@ h3 {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
-  margin-left: 25px;
-}
-@media (max-width: 570px) {
-  .news-wrapper {
-    margin-left: 0;
-  }
 }
 
 .news-body {

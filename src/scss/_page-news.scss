@@ -16,9 +16,12 @@
     }
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .news-item-img {
     flex: 0 1 50%;
-    margin-right: 25px;
 
     img {
         max-width: 100%;
@@ -32,11 +35,6 @@
 
 .news-wrapper {
     flex: 0 1 50%;
-    margin-left: 25px;
-
-    @media (max-width: 570px) {
-        margin-left: 0;
-    }
 }
 
 .news-body {
