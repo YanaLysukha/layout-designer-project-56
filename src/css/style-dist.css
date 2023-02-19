@@ -462,3 +462,11 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.page-news {
+  padding-top: 100px;
+}
+
+.page-news-title {
+  margin-bottom: 45px;
+}
