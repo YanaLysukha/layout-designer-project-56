@@ -18,6 +18,10 @@
 
 .row-reverse {
     flex-direction: row-reverse;
+
+    @media (max-width: 570px) {
+        flex-direction: column;
+    }
 }
 
 .news-item-img {
