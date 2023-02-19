@@ -26,3 +26,26 @@
         margin-bottom: 30px;
     }
 }
+
+.news-author {
+    .avatar {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: $orange;
+
+        position: relative;
+        padding-left: 35px;
+
+        &::before {
+            content: '';
+
+            background-image: url('../images/icons/avatar.png');
+            width: 19px;
+            height: 19px;
+
+            position: absolute;
+            left: 0px;
+            top: -2px;
+        }
+    }
+}
