@@ -13,11 +13,18 @@
 }
 
 .news-item-img {
-    margin-right: 50px;
+    flex: 0 1 50%;
+    margin-right: 25px;
+    max-height: 286px;
+}
+
+.news-wrapper {
+    flex: 0 1 50%;
+    margin-left: 25px;
 }
 
 .news-body {
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 
     h3 {
         text-transform: none;
@@ -30,7 +37,7 @@
 .news-author {
     display: flex;
     gap: 16px;
-    margin-bottom: 45px;
+    margin-bottom: 47px;
 
     font-size: 12px;
 

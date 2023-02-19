@@ -479,11 +479,22 @@ h3 {
 }
 
 .news-item-img {
-  margin-right: 50px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  margin-right: 25px;
+  max-height: 286px;
+}
+
+.news-wrapper {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  margin-left: 25px;
 }
 
 .news-body {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .news-body h3 {
   text-transform: none;
@@ -496,7 +507,7 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
-  margin-bottom: 45px;
+  margin-bottom: 47px;
   font-size: 12px;
 }
 .news-author .avatar {
