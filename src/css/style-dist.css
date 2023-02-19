@@ -483,7 +483,10 @@ h3 {
       -ms-flex: 0 1 50%;
           flex: 0 1 50%;
   margin-right: 25px;
-  max-height: 286px;
+}
+.news-item-img img {
+  max-width: 100%;
+  height: auto;
 }
 
 .news-wrapper {

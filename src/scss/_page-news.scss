@@ -15,7 +15,11 @@
 .news-item-img {
     flex: 0 1 50%;
     margin-right: 25px;
-    max-height: 286px;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 .news-wrapper {
