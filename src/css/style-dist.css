@@ -482,7 +482,11 @@ h3 {
   margin-right: 50px;
 }
 
+.news-body {
+  margin-bottom: 24px;
+}
 .news-body h3 {
   text-transform: none;
   text-align: left;
+  margin-bottom: 30px;
 }
