@@ -1,0 +1,57 @@
+.page-app {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page-app-title {
+    margin-bottom: 48px;
+}
+
+.page-app-wrapper {
+    display: flex;
+
+    .page-app-text {
+        flex: 0 1 50%;
+        margin-right: 5px;
+    }
+
+    .page-app-img {
+        flex: 0 1 50%;
+        display: flex;
+        justify-content: center;
+
+        @media (max-width: 690px) {
+            margin-bottom: 16px;
+        }
+    }
+
+    @media (max-width: 690px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.text-wrapper {
+    margin-bottom: 16px;
+
+    & p:first-child {
+        margin-bottom: 18px;
+    }
+}
+
+.btn-brown {
+    text-transform: none;
+    color: $white;
+
+    border-radius: 32px;
+    border: none;
+    background-color: $brown;
+
+    padding: 16px 40px;
+
+    cursor: pointer;
+    transition: 0.7s;
+
+    &:hover {
+        background-color: $orange;
+    }
+}
