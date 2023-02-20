@@ -661,12 +661,22 @@ h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media (max-width: 915px) {
+  .nav-top {
+    gap: 30px;
+  }
 }
 .nav-top h4 {
   margin-bottom: 15px;
 }
 .nav-top ul {
-  min-width: 270px;
+  /*min-width: 270px;*/
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 270px;
+          flex: 1 1 270px;
 }
 .nav-top ul li a {
   color: #E0E0E0;
@@ -685,6 +695,14 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
+}
+@media (max-width: 570px) {
+  .nav-bottom ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 .nav-bottom li a {
   color: #E0E0E0;

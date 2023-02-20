@@ -8,13 +8,19 @@
 
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: $md-width) {
+        gap: 30px;
+    }
 
     h4 {
         margin-bottom: 15px;
     }
 
     ul {
-        min-width: 270px;
+        /*min-width: 270px;*/
+        flex: 1 1 270px;
 
         li a {
             color: $light-gray;
@@ -33,6 +39,10 @@
     ul {
         display: flex;
         gap: 16px;
+
+        @media (max-width: 570px) {
+            flex-direction: column;
+        }
     }
 
     li a {
