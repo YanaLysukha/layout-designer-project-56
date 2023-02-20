@@ -84,6 +84,12 @@ h3 {
     }
 }
 
+h4 {
+    font: bold 18px/27px Roboto, sans-serif;
+    color: $white;
+    @include uppercase;
+}
+
 .btn {
     border-radius: 5px;
     border: 1px solid $gray;

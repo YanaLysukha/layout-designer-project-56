@@ -59,6 +59,12 @@ h3 {
   }
 }
 
+h4 {
+  font: bold 18px/27px Roboto, sans-serif;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
 .btn {
   border-radius: 5px;
   border: 1px solid #CACACA;
@@ -640,4 +646,40 @@ h3 {
 }
 .btn-brown:hover {
   background-color: #F89202;
+}
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.nav-top {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav-top ul {
+  min-width: 270px;
+}
+.nav-top ul li a {
+  color: #E0E0E0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.nav-bottom {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.nav-bottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
 }
