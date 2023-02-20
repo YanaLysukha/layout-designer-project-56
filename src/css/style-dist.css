@@ -697,3 +697,21 @@ h4 {
 hr {
   background-color: #CACACA;
 }
+
+.google {
+  background-image: url("../images/icons/Google+.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 26px;
+  height: 17px;
+  display: inline-block;
+}
+
+.twitter {
+  background-image: url("../images/icons/Twitter.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 22px;
+  height: 19px;
+  display: inline-block;
+}
