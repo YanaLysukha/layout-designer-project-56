@@ -83,6 +83,7 @@ h3 {
   .container {
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 100%;
   }
 }
 
@@ -251,6 +252,7 @@ h3 {
   .container {
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 100%;
   }
 }
 
