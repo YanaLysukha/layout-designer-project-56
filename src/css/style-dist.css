@@ -768,11 +768,12 @@ hr {
 .btn-left,
 .btn-right {
   width: 200px;
-  padding: 20px 30px;
+  padding: 20px 30px 20px 66px;
   font-size: 12.8px;
   color: #FFFFFF;
   border: none;
   cursor: pointer;
+  text-align: left;
 }
 
 .btn-left {
