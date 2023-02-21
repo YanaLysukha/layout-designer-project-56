@@ -868,113 +868,33 @@ hr {
 .grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[6];
-  grid-template-columns: repeat(6, 1fr);
-  -ms-grid-rows: (1fr)[3];
-  grid-template-rows: repeat(3, 1fr);
-}
-
-.grid-container > *:nth-child(1) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-}
-
-.grid-container > *:nth-child(2) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-}
-
-.grid-container > *:nth-child(3) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-}
-
-.grid-container > *:nth-child(4) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 4;
-}
-
-.grid-container > *:nth-child(5) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 5;
-}
-
-.grid-container > *:nth-child(6) {
-  -ms-grid-row: 1;
-  -ms-grid-column: 6;
-}
-
-.grid-container > *:nth-child(7) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-}
-
-.grid-container > *:nth-child(8) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-}
-
-.grid-container > *:nth-child(9) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-}
-
-.grid-container > *:nth-child(10) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 4;
-}
-
-.grid-container > *:nth-child(11) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 5;
-}
-
-.grid-container > *:nth-child(12) {
-  -ms-grid-row: 2;
-  -ms-grid-column: 6;
-}
-
-.grid-container > *:nth-child(13) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-}
-
-.grid-container > *:nth-child(14) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-}
-
-.grid-container > *:nth-child(15) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 3;
-}
-
-.grid-container > *:nth-child(16) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 4;
-}
-
-.grid-container > *:nth-child(17) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 5;
-}
-
-.grid-container > *:nth-child(18) {
-  -ms-grid-row: 3;
-  -ms-grid-column: 6;
-}
-.grid-container .col-3 {
-  -ms-grid-column-span: 3;
-  grid-column: span 3;
+  -ms-grid-columns: 46% 49px 46%;
+  grid-template-columns: repeat(2, 46%);
+  row-gap: 25px;
+  -webkit-column-gap: 49px;
+     -moz-column-gap: 49px;
+          column-gap: 49px;
 }
 
 .popular-track {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .popular-track .track-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
