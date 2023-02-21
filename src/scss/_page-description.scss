@@ -37,10 +37,36 @@
 
 .btn-left {
     background-color: $violet;
+    position: relative;
+
+    &::before {
+        content: '';
+        background-image: url('../images/icons/play-button.svg');
+        width: 20px;
+        height: 20px;
+        filter: invert(1);
+
+        position: absolute;
+        top: 18px;
+        left: 30px;
+    }
 }
 
 .btn-right {
     background-color: $brown;
 
     margin-left: 1.5rem;
+    position: relative;
+
+    &::before {
+        content: '';
+        background-image: url('../images/icons/heart.svg');
+        width: 20px;
+        height: 20px;
+        filter: invert(1);
+
+        position: absolute;
+        top: 18px;
+        left: 30px;
+    }
 }

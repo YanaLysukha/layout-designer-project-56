@@ -777,9 +777,33 @@ hr {
 
 .btn-left {
   background-color: #5328A1;
+  position: relative;
+}
+.btn-left::before {
+  content: "";
+  background-image: url("../images/icons/play-button.svg");
+  width: 20px;
+  height: 20px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  position: absolute;
+  top: 18px;
+  left: 30px;
 }
 
 .btn-right {
   background-color: #95390C;
   margin-left: 1.5rem;
+  position: relative;
+}
+.btn-right::before {
+  content: "";
+  background-image: url("../images/icons/heart.svg");
+  width: 20px;
+  height: 20px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  position: absolute;
+  top: 18px;
+  left: 30px;
 }
