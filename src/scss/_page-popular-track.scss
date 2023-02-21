@@ -21,3 +21,13 @@
         font-weight: bold;
     }
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    .col-3 {
+        grid-column: span 3;
+    }
+}
