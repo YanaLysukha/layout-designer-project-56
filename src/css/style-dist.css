@@ -770,7 +770,7 @@ hr {
   margin-bottom: 48px;
 }
 
-@media (max-width: 454px) {
+@media (max-width: 915px) {
   .page-description-form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -808,7 +808,7 @@ hr {
   top: 18px;
   left: 30px;
 }
-@media (max-width: 480px) {
+@media (max-width: 915px) {
   .btn-left {
     margin-bottom: 24px;
   }
@@ -830,7 +830,7 @@ hr {
   top: 18px;
   left: 30px;
 }
-@media (max-width: 480px) {
+@media (max-width: 915px) {
   .btn-right {
     margin-left: 0;
   }
