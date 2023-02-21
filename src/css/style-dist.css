@@ -840,6 +840,13 @@ hr {
   padding-top: 100px;
 }
 
+.popular-track-title {
+  margin-bottom: 48px;
+}
+.popular-track-title h2 {
+  text-align: left;
+}
+
 .popular-track-image {
   margin-right: 15px;
 }
@@ -959,4 +966,15 @@ hr {
 .grid-container .col-3 {
   -ms-grid-column-span: 3;
   grid-column: span 3;
+}
+
+.popular-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.popular-track .track-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

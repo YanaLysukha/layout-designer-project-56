@@ -2,6 +2,14 @@
     padding-top: 100px;
 }
 
+.popular-track-title {
+    margin-bottom: 48px;
+
+    h2 {
+    text-align: left;
+    }
+}
+
 .popular-track-image {
     margin-right: 15px;
 
@@ -29,5 +37,13 @@
 
     .col-3 {
         grid-column: span 3;
+    }
+}
+
+.popular-track {
+    display: flex;
+
+    .track-info {
+        display: flex;
     }
 }
