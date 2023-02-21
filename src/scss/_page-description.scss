@@ -18,10 +18,21 @@
     h1 {
         text-align: left;
     }
+
+    @media (max-width: $md-width) {
+        margin-top: 55px;
+    }
 }
 
 .page-description-text {
     margin-bottom: 48px;
+}
+
+.page-description-form {
+    @media (max-width: $phone-width) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .btn-left,
@@ -34,6 +45,8 @@
     border: none;
     cursor: pointer;
     text-align: left;
+
+    
 }
 
 .btn-left {
@@ -50,6 +63,10 @@
         position: absolute;
         top: 18px;
         left: 30px;
+    }
+
+    @media (max-width: 480px) {
+        margin-bottom: 24px;
     }
 }
 
@@ -69,5 +86,9 @@
         position: absolute;
         top: 18px;
         left: 30px;
+    }
+
+    @media (max-width: 480px) {
+        margin-left: 0;
     }
 }

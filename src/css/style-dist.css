@@ -760,9 +760,26 @@ hr {
 .page-description-title h1 {
   text-align: left;
 }
+@media (max-width: 915px) {
+  .page-description-title {
+    margin-top: 55px;
+  }
+}
 
 .page-description-text {
   margin-bottom: 48px;
+}
+
+@media (max-width: 454px) {
+  .page-description-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .btn-left,
@@ -791,6 +808,11 @@ hr {
   top: 18px;
   left: 30px;
 }
+@media (max-width: 480px) {
+  .btn-left {
+    margin-bottom: 24px;
+  }
+}
 
 .btn-right {
   background-color: #95390C;
@@ -807,4 +829,9 @@ hr {
   position: absolute;
   top: 18px;
   left: 30px;
+}
+@media (max-width: 480px) {
+  .btn-right {
+    margin-left: 0;
+  }
 }
