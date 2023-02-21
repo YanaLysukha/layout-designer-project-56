@@ -764,3 +764,22 @@ hr {
 .page-description-text {
   margin-bottom: 48px;
 }
+
+.btn-left,
+.btn-right {
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-left {
+  background-color: #5328A1;
+}
+
+.btn-right {
+  background-color: #95390C;
+  margin-left: 1.5rem;
+}

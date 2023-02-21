@@ -23,3 +23,24 @@
 .page-description-text {
     margin-bottom: 48px;
 }
+
+.btn-left,
+.btn-right {
+    width: 200px;
+    padding: 20px 30px;
+
+    font-size: $text-small;
+    color: $white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-left {
+    background-color: $violet;
+}
+
+.btn-right {
+    background-color: $brown;
+
+    margin-left: 1.5rem;
+}
