@@ -751,4 +751,16 @@ hr {
   background-size: cover;
   width: 100%;
   height: 100%;
+  color: #FFFFFF;
+}
+
+.page-description-title {
+  margin-bottom: 16px;
+}
+.page-description-title h1 {
+  text-align: left;
+}
+
+.page-description-text {
+  margin-bottom: 48px;
 }
