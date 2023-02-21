@@ -35,6 +35,10 @@
     grid-template-columns: repeat(2, 46%);
     row-gap: 25px;
     column-gap: 49px;
+
+    @media (max-width: $md-width) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .popular-track {

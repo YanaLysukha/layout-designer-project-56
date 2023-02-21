@@ -875,6 +875,12 @@ hr {
      -moz-column-gap: 49px;
           column-gap: 49px;
 }
+@media (max-width: 915px) {
+  .grid-container {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 .popular-track {
   display: -webkit-box;
