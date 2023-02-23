@@ -967,3 +967,19 @@ hr {
   line-height: 24px;
   color: #E0E0E0;
 }
+
+.page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.page-title {
+  margin-bottom: 48px;
+}
+
+.similar-grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+}
