@@ -919,11 +919,9 @@ hr {
 .discography-grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 50px 1fr 50px 1fr 50px 1fr;
+  -ms-grid-columns: (1fr)[4];
   grid-template-columns: repeat(4, 1fr);
-  -webkit-column-gap: 50px;
-     -moz-column-gap: 50px;
-          column-gap: 50px;
+  /*column-gap: 50px;*/
   row-gap: 25px;
 }
 @media (max-width: 915px) {
@@ -937,6 +935,9 @@ hr {
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
+}
+.discography-grid-container .discography-item {
+  margin-right: 50px;
 }
 
 .discography-img {
