@@ -986,8 +986,13 @@ hr {
   display: grid;
   -ms-grid-columns: (1fr)[4];
   grid-template-columns: repeat(4, 1fr);
+  /*column-gap: 50px;*/
+  row-gap: 25px;
 }
 
+.similar-item {
+  margin-right: 50px;
+}
 .similar-item .similar-item-img {
   max-width: 250px;
   max-height: 250px;
@@ -996,4 +1001,16 @@ hr {
 .similar-item .similar-item-img img {
   max-width: 100%;
   height: auto;
+}
+.similar-item .similar-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: none;
+  font-weight: bold;
+}
+.similar-item .similar-info p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: #E0E0E0;
 }
