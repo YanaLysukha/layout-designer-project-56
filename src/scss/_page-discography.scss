@@ -12,6 +12,12 @@
 
 .discography-grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 24%);
+    grid-template-columns: repeat(4, 1fr);
 }
 
+.discography-img {
+    img {
+        width: 250px;
+        height: 250px;
+    }
+}

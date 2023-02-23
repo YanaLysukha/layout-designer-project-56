@@ -919,6 +919,11 @@ hr {
 .discography-grid-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (24%)[4];
-  grid-template-columns: repeat(4, 24%);
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.discography-img img {
+  width: 250px;
+  height: 250px;
 }
