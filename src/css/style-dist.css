@@ -977,10 +977,23 @@ hr {
 .page-title {
   margin-bottom: 48px;
 }
+.page-title h2 {
+  text-align: left;
+}
 
 .similar-grid-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
   grid-template-columns: repeat(4, 1fr);
+}
+
+.similar-item .similar-item-img {
+  max-width: 250px;
+  max-height: 250px;
+  margin-bottom: 17px;
+}
+.similar-item .similar-item-img img {
+  max-width: 100%;
+  height: auto;
 }
