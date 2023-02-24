@@ -300,6 +300,11 @@ h4 {
 .banner-form .banner-form-text {
   margin-right: 24px;
 }
+@media (max-width: 650px) {
+  .banner-form .banner-form-text {
+    margin-right: 0;
+  }
+}
 .banner-form .banner-form-text,
 .banner-form .banner-form-email {
   min-width: 270px;
