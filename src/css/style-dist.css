@@ -73,6 +73,12 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.btn:hover {
+  background-color: #CACACA;
+  color: #08020D;
 }
 
 * {
