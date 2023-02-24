@@ -813,6 +813,12 @@ hr {
 .btn-left {
   background-color: #5328A1;
   position: relative;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.btn-left:hover {
+  background-color: #2d0870;
+  color: #FFFFFF;
 }
 .btn-left::before {
   content: "";
@@ -835,6 +841,12 @@ hr {
   background-color: #95390C;
   margin-left: 1.5rem;
   position: relative;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+.btn-right:hover {
+  background-color: #632406;
+  color: #FFFFFF;
 }
 .btn-right::before {
   content: "";

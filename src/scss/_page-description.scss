@@ -50,6 +50,12 @@
 .btn-left {
     background-color: $violet;
     position: relative;
+    transition: 0.7s;
+
+    &:hover {
+        background-color: #2d0870;
+        color: $white;
+    }
 
     &::before {
         content: '';
@@ -73,6 +79,12 @@
 
     margin-left: 1.5rem;
     position: relative;
+    transition: 0.7s;
+
+    &:hover {
+        background-color: #632406;
+        color: $white;
+    }
 
     &::before {
         content: '';
