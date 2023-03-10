@@ -32,6 +32,14 @@
     }
 }
 
+.nav-top ul li:first-child {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: $white;
+    text-transform: uppercase;
+}
+
 .nav-bottom {
     padding-top: 2rem;
     padding-bottom: 2rem;
