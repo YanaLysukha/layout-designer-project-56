@@ -166,6 +166,12 @@ h4 {
     color: #E0E0E0;
   }
 }
+@media (max-width: 454px) {
+  .logo .logo-name {
+    font-weight: 700;
+    color: #FFFFFF;
+  }
+}
 
 .header-navigation {
   font-size: 11px;
@@ -188,6 +194,11 @@ h4 {
 .header-navigation li a {
   color: #FFFFFF;
 }
+@media (max-width: 454px) {
+  .header-navigation li a {
+    color: #CACACA;
+  }
+}
 @media (max-width: 915px) {
   .header-navigation {
     margin-bottom: 18px;
@@ -195,7 +206,6 @@ h4 {
 }
 @media (max-width: 454px) {
   .header-navigation {
-    color: #CACACA;
     font-weight: bold;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -301,7 +311,7 @@ h4 {
 }
 @media (max-width: 454px) {
   .banner-title {
-    margin-top: 63px;
+    margin-top: 50px;
   }
 }
 

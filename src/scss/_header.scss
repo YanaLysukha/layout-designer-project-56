@@ -50,6 +50,11 @@
     .logo-name {
         @include header-text;
         @include uppercase;
+
+        @media (max-width: $phone-width) {
+            font-weight: 700;
+            color: $white;
+        }
     }
 }
 
@@ -61,13 +66,15 @@
 
     & li a {
         color: $white;
+        @media (max-width: $phone-width) {
+            color: $gray;
+        }
     }
     @media (max-width: $md-width) {
         margin-bottom: 18px;
     }
 
     @media (max-width: $phone-width) {
-        color: $gray;
         font-weight: bold;
         flex-direction: column;
     }
