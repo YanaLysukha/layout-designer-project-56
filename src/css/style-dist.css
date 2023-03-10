@@ -307,15 +307,18 @@ h4 {
   }
 }
 
+.banner-description {
+  margin-bottom: 17px;
+}
+.banner-description .banner-description-text {
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
 .banner-form {
   max-width: 570px;
   margin: 0 auto;
-}
-.banner-form .banner-form-description {
-  font: 16px;
-  text-align: center;
-  color: #FFFFFF;
-  margin-bottom: 17px;
 }
 .banner-form .banner-form-text {
   margin-right: 24px;
