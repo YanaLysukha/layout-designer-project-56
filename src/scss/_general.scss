@@ -10,8 +10,10 @@
 }
 
 @mixin header-text {
-    font: 11px/16.5px;
-    color: $white;
+    font-size: 11px;
+    line-height: 16.5px;
+    color: $gray;
+    font-weight: 400;
 }
 
 @mixin container {

@@ -155,14 +155,18 @@ h4 {
   margin-right: 16px;
 }
 .logo .logo-name {
-  font: 11px/16.5px;
-  color: #FFFFFF;
+  font-size: 11px;
+  line-height: 16.5px;
+  color: #CACACA;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 .header-navigation {
-  font: 11px/16.5px;
-  color: #FFFFFF;
+  font-size: 11px;
+  line-height: 16.5px;
+  color: #CACACA;
+  font-weight: 400;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
