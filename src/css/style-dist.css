@@ -161,6 +161,11 @@ h4 {
   font-weight: 400;
   text-transform: uppercase;
 }
+@media (max-width: 454px) {
+  .logo .logo-name {
+    color: #E0E0E0;
+  }
+}
 
 .header-navigation {
   font-size: 11px;
@@ -177,6 +182,11 @@ h4 {
   /*& li {
       margin-right: 24px;
   }*/
+}
+@media (max-width: 454px) {
+  .header-navigation {
+    color: #E0E0E0;
+  }
 }
 .header-navigation li a {
   color: #FFFFFF;
