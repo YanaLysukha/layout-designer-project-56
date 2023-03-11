@@ -7,12 +7,12 @@
 .pricing-container {
     display: flex;
     gap: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 19px;
 
     @media (max-width: $md-width) {
-        /*column-gap: calc(20px + (50 - 20) * ((100vw - 280px) / (1240 - 320)));*/
         flex-direction: column;
         justify-content: center;
+        gap: 27px;
     }
 }
 
@@ -32,10 +32,7 @@
     border-radius: 1rem;
 
     @media (max-width: $md-width) {
-        margin-bottom: 27px;
-    }
-
-    @media (max-width: $md-width) {
+        margin-bottom: 1px;
         width: 100%;
     }
 
@@ -67,6 +64,7 @@
         color: $white;
 
         padding: 20px 0px;
+        height: 65px;
     }
 
     .pricing-footer {

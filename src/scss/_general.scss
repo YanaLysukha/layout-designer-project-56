@@ -17,15 +17,12 @@
 }
 
 @mixin container {
+    margin: 0 auto;
+    box-sizing: border-box;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1240px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0 auto;
-
-    /*@media (max-width: $md-width) {
-        max-width: 100%;
-    }*/
 }
 
 * {

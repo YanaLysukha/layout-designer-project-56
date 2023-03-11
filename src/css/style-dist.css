@@ -88,14 +88,13 @@ h4 {
 }
 
 .container {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
-  /*@media (max-width: $md-width) {
-      max-width: 100%;
-  }*/
 }
 
 .header {
@@ -273,14 +272,13 @@ h4 {
 }
 
 .container {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1240px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
-  /*@media (max-width: $md-width) {
-      max-width: 100%;
-  }*/
 }
 
 @media (max-width: 454px) {
@@ -395,11 +393,10 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   gap: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 19px;
 }
 @media (max-width: 915px) {
   .pricing-container {
-    /*column-gap: calc(20px + (50 - 20) * ((100vw - 280px) / (1240 - 320)));*/
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -407,6 +404,7 @@ h4 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    gap: 27px;
   }
 }
 
@@ -431,11 +429,7 @@ h4 {
 }
 @media (max-width: 915px) {
   .pricing-item {
-    margin-bottom: 27px;
-  }
-}
-@media (max-width: 915px) {
-  .pricing-item {
+    margin-bottom: 1px;
     width: 100%;
   }
 }
@@ -463,6 +457,7 @@ h4 {
   font-size: 16px;
   color: #FFFFFF;
   padding: 20px 0px;
+  height: 65px;
 }
 .pricing-item .pricing-footer {
   font-size: 12.8px;
@@ -507,6 +502,7 @@ h4 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 65px;
   }
 }
 
@@ -566,7 +562,7 @@ h4 {
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
-  margin-bottom: 47px;
+  margin-bottom: 48px;
   font-size: 12px;
 }
 .news-author .avatar {
@@ -587,6 +583,7 @@ h4 {
 
 .news-footer-btn {
   padding: 16px 30px;
+  height: 53px;
 }
 
 .mr-25 {
