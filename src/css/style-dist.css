@@ -69,6 +69,7 @@ h4 {
 .btn {
   border-radius: 5px;
   border: 1px solid #CACACA;
+  display: inline-block;
   font: 12px/19px Roboto, sans-serif;
   color: #CACACA;
   text-align: center;
@@ -491,7 +492,6 @@ h4 {
 }
 
 .news-item-wrapper {
-  margin-bottom: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -502,7 +502,6 @@ h4 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-bottom: 65px;
   }
 }
 
@@ -521,6 +520,10 @@ h4 {
   }
 }
 
+.mb-65 {
+  margin-bottom: 65px;
+}
+
 .news-item-img {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
@@ -529,6 +532,7 @@ h4 {
 .news-item-img img {
   max-width: 100%;
   height: auto;
+  vertical-align: middle;
 }
 @media (max-width: 570px) {
   .news-item-img {
