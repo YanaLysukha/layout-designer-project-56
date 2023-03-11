@@ -32,10 +32,11 @@
     align-items: center;
 
     margin-bottom: 15px;
+    margin-top: 3rem;
 
-    @media (max-width: $phone-width) {
+    /*@media (max-width: $phone-width) {
         margin-top: 50px;
-    }
+    }*/
 }
 
 .banner-description {
